@@ -28,9 +28,9 @@ export default class News extends React.Component {
   };
   render() {
     return (
-      <ul>
-        {this.renderItems()}
-      </ul>
+      <div className="row">
+     {this.renderItems()}
+      </div>
     );
   }
 }
